@@ -7161,6 +7161,53 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0xb8ba55c075df870aa2e41f63c695d9915ea38198102404999f7187bbe0612ad5": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "components": [
+                {
+                  "internalType": "uint256",
+                  "name": "docId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "hashKey",
+                  "type": "bytes32"
+                },
+                {
+                  "internalType": "string",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "size",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "string",
+                  "name": "docType",
+                  "type": "string"
+                }
+              ],
+              "indexed": false,
+              "internalType": "struct ProofOfExistence.DocumentProof[]",
+              "name": "documentProofs",
+              "type": "tuple[]"
+            }
+          ],
+          "name": "AllDocumentsEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x61a72ba42a2e1198bB331193C09d949251d79AA6",
+      "transactionHash": "0x61845a0c0c8ddb85df1babd0cf66a00b1484eb5b735f45ffd92331ec6da26805"
+    },
     "5777": {
       "events": {
         "0x751ffa8cb0b9a6e8600bc9a95fe5560263f6f079b37f539508513e8c2f0045da": {
@@ -7265,7 +7312,8 @@
     }
   },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-07-21T10:35:34.007Z",
+  "updatedAt": "2020-08-04T20:06:07.870Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
