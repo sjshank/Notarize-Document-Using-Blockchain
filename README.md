@@ -10,7 +10,10 @@ Decentralized Application built using Ethereum, Solidity, Truffle and ReactJS to
     Ganache
     MetaMask Plugin
     
-# How to run application ?
+# Application is live at https://notarize-document-dapp.netlify.app/ and blockchain running on Rinkeby network. Please connect to Rinkeby network using Metamask and enjoy !
+    
+    
+# How to run application in Local?
   
     Run Blockchain :
 
