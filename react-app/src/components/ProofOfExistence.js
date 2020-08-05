@@ -127,7 +127,7 @@ class ProofOfExistenceComponent extends Component {
         return (
             <div className="container">
                 <header>
-                    <h2 className="p-2 bd-highlight">Notarize Your Documents</h2>
+                    <h2 className="p-2 bd-highlight">Notarize Document With Blockchain</h2>
                 </header>
                 <section>
                     <div>
