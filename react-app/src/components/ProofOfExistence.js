@@ -159,6 +159,7 @@ class ProofOfExistenceComponent extends Component {
                 {/* <footer className="mt-4">
                     <p className="text-center">Made with React, Ethereum & Solidity. Copyright@<a href="https://github.com/sjshank">Saurabh Shankariya</a></p>
                 </footer> */}
+                <small className="m-3">Note: Make sure you have Metamask chrome plugin installed and connected to Rinkeby Network.</small>
             </div>
 
         )
